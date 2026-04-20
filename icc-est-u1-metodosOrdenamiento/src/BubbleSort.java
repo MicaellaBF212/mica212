@@ -37,4 +37,15 @@ public class BubbleSort {
         }
         System.out.println();
     }
+    //
+    //[asc: true] ordenara ascendentemente
+    //[asc] FALSE ordenara desendentemente
+    //
+    public void sort(int[] numeros, boolean asc){
+        if(asc){
+            sortAscendente(numeros);
+        }else{
+            sortDescendente(numeros);
+        }
+    }
 }

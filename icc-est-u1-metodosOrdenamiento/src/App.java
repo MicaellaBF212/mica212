@@ -13,5 +13,10 @@ public class App {
         bubbleSort.printArreglo(numeros);
         bubbleSort.sortDescendente(numeros);
         bubbleSort.printArreglo(numeros);
+
+        bubbleSort.sort(numeros, true);
+        bubbleSort.printArreglo(numeros);
+        bubbleSort.sort(numeros, false);
+        bubbleSort.printArreglo(numeros);
     }
 }
